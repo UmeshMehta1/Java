@@ -1,6 +1,5 @@
 package com.constructor;
 
-
  class xyz {
     int a; int b;
     xyz(){

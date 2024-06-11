@@ -8,12 +8,16 @@ class StaticJava{
         System.out.println("num is: "+num+ " Name is: "+ name);
     }
 
+    // Static Block ex choti matra execute garxa..
+    // constructor vanda phaila Static Block execute hunxa.
+
     static {
         int num=12;
         String name="hello";
         System.out.println("num is: "+num+ " Name is: "+ name);
     }
-
+//    Note:
+  //First ma static block execute hunxa, tespaxi --> instance block --> last ma constructor execute hunxa.
     {
         num=11;
         name= "Instance";

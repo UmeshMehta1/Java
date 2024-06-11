@@ -10,7 +10,7 @@ class ins{
     }
 
     //Instance block in java
-    // Instance black ma vako content constructor vanta xito run hunxal.
+    // Instance block ma vako content constructor vanta xito run hunxal.
     {
         a=21;
         name="hello";

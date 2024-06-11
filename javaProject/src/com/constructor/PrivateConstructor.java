@@ -7,11 +7,8 @@ class PrivateConstructor{
         b=55;
         System.out.print("Sum is "+ Integer.sum(a,b));
     }
-
         public static void main(String[] args){
             PrivateConstructor res= new PrivateConstructor();
         }
-
-
 }
 

@@ -13,7 +13,7 @@ class Adding{
         System.out.print("enter Second Number: ");
         num2=sc.nextInt();
 
-        System.out.print("Sum is: "+ num1+num2);
+        System.out.print("Sum is: "+ (num1+num2));
     }
 }
 
@@ -25,8 +25,15 @@ class Subracting extends Adding{
         System.out.print("enter Second Number: ");
         num2=sc.nextInt();
 
-        System.out.print("Sum is: "+ num1-num2);
+        System.out.print("Sum is: "+ (num1-num2));
     }
 }
 public class MultiLebal {
+    public static void main(String arg[]){
+        Subracting subObj = new Subracting();
+        Adding addObj = new Adding();
+
+        subObj.sub();
+        addObj.add();
+    }
 }
